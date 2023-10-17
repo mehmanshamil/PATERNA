@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  height: 50px;
+  position: fixed;
+  z-index: 999;
+}
+header #panterna {
+  font-size: 1.5rem;
+}
+header .menu {
+  margin-bottom: 0 !important;
+}
+header .menu .menu-min {
+  text-decoration: none;
+  color: #fff;
+}
+
+#min-menu {
+  display: none;
+}
+
+#pageOne {
+  background-color: rgb(0, 121, 138);
+  width: 100%;
+  height: 37rem;
+  color: #fff;
+}
+#pageOne .texthead .headertxtOne {
+  font-size: 6rem;
+}
+#pageOne .texthead .headertxtTwo {
+  font-size: 3rem;
+}
+#pageOne .texthead .headertxtThree {
+  font-size: 1.5rem;
+}
+#pageOne .texthead .btn {
+  color: #fff;
+  width: 18rem;
+  background-color: rgb(252, 64, 101);
+}
+#pageOne .texthead .btn:hover {
+  background-color: rgb(210, 50, 45);
+}
+
+.services {
+  background-image: url(../Image/sativa.png);
+  width: 100%;
+}
+
+.our {
+  font-size: 2.5rem;
+  color: rgb(0, 121, 138);
+}
+
+.cardspecial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+  color: #fff;
+  background-color: rgb(0, 121, 138);
+}
+.cardspecial i {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+#feature {
+  background-color: rgb(0, 121, 138);
+}
+#feature .feature-sentences {
+  color: #fff;
+}
+#feature .feature-sentences .feature-txt {
+  font-size: 3.5rem;
+}
+#feature .feature-sentences .txtfeature {
+  font-size: 1.5rem;
+}
+
+.txt-content-card {
+  margin-top: 4rem;
+}
+.txt-content-card p {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+#result {
+  background-color: rgb(0, 121, 138);
+}
+#result .p-one {
+  font-size: 60px;
+  font-weight: 900;
+}
+#result .pfooter {
+  padding-top: 25px;
+  line-height: 40px;
+  padding-bottom: 0;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  #min-menu {
+    display: block;
+  }
+  #big-menu {
+    display: none;
+  }
+}
